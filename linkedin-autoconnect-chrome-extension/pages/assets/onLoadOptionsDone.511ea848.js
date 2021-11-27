@@ -1,0 +1,1 @@
+import{a as o,S as e,l as s,m as a,v as n}from"./vendor.be924f21.js";const r=o(),t=e(r,"100"),i=s({config:{useSystemColorMode:!1,initialColorMode:"dark"}}),m=a((o=>new Promise((e=>{chrome.storage.sync.get(o,(o=>e(o)))}))));n({clock:m.doneData,fn:({maximumAutoConnectionsPerSession:o})=>o,target:r});export{r as a,i as d,m as l,t as m};
